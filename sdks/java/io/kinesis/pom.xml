@@ -44,8 +44,8 @@
   </build>
 
   <properties>
-    <aws.version>1.11.255</aws.version>
-    <amazon-kinesis-client.version>1.8.8</amazon-kinesis-client.version>
+    <aws.version>1.12.166</aws.version>
+    <amazon-kinesis-client.version>1.14.8</amazon-kinesis-client.version>
   </properties>
 
   <dependencies>
