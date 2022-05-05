@@ -93,13 +93,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <external.build.directory>${project.basedir}/target</external.build.directory>
-    <beam.javadoc_opts />
+    <beam.javadoc_opts/>
 
     <!-- Disable integration tests by default -->
     <skipITs>true</skipITs>
 
     <!-- Do not add additional surefire arguments by default -->
-    <beamSurefireArgline />
+    <beamSurefireArgline/>
 
     <!-- If updating dependencies, please update any relevant javadoc offlineLinks -->
     <apache.commons.compress.version>1.14</apache.commons.compress.version>
@@ -123,7 +123,7 @@
     <google-auto-value.version>1.5.1</google-auto-value.version>
     <google-auth.version>0.7.1</google-auth.version>
     <google-clients.version>1.22.0</google-clients.version>
-    <google-cloud-bigdataoss.version>1.4.5</google-cloud-bigdataoss.version>
+    <google-cloud-bigdataoss.version>2.2.0</google-cloud-bigdataoss.version>
     <google-cloud-core.version>1.0.2</google-cloud-core.version>
     <google-cloud-dataflow-java-proto-library-all.version>0.5.160304</google-cloud-dataflow-java-proto-library-all.version>
     <guava.version>20.0</guava.version>
@@ -1785,7 +1785,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1799,7 +1799,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1856,7 +1856,7 @@
                   </relocation>
                 </relocations>
                 <transformers>
-                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
