@@ -93,13 +93,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <external.build.directory>${project.basedir}/target</external.build.directory>
-    <beam.javadoc_opts />
+    <beam.javadoc_opts/>
 
     <!-- Disable integration tests by default -->
     <skipITs>true</skipITs>
 
     <!-- Do not add additional surefire arguments by default -->
-    <beamSurefireArgline />
+    <beamSurefireArgline/>
 
     <!-- If updating dependencies, please update any relevant javadoc offlineLinks -->
     <apache.commons.compress.version>1.14</apache.commons.compress.version>
@@ -112,7 +112,7 @@
     <bigquery.version>v2-rev355-1.22.0</bigquery.version>
     <bigtable.version>1.0.0-pre3</bigtable.version>
     <cloudresourcemanager.version>v1-rev6-1.22.0</cloudresourcemanager.version>
-    <pubsubgrpc.version>0.1.18</pubsubgrpc.version>
+    <pubsubgrpc.version>1.114.3</pubsubgrpc.version>
     <clouddebugger.version>v2-rev8-1.22.0</clouddebugger.version>
     <dataflow.version>v1b3-rev221-1.22.0</dataflow.version>
     <dataflow.proto.version>0.5.160222</dataflow.proto.version>
@@ -1785,7 +1785,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1799,7 +1799,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1856,7 +1856,7 @@
                   </relocation>
                 </relocations>
                 <transformers>
-                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
