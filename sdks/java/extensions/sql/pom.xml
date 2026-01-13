@@ -296,7 +296,7 @@
                   </relocation>
                 </relocations>
                 <transformers>
-                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
@@ -416,7 +416,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.12</version>
+      <version>1.2.48</version>
     </dependency>
   </dependencies>
 </project>
