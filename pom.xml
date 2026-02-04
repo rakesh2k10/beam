@@ -93,13 +93,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <external.build.directory>${project.basedir}/target</external.build.directory>
-    <beam.javadoc_opts />
+    <beam.javadoc_opts/>
 
     <!-- Disable integration tests by default -->
     <skipITs>true</skipITs>
 
     <!-- Do not add additional surefire arguments by default -->
-    <beamSurefireArgline />
+    <beamSurefireArgline/>
 
     <!-- If updating dependencies, please update any relevant javadoc offlineLinks -->
     <apache.commons.compress.version>1.14</apache.commons.compress.version>
@@ -127,7 +127,7 @@
     <google-cloud-core.version>1.0.2</google-cloud-core.version>
     <google-cloud-dataflow-java-proto-library-all.version>0.5.160304</google-cloud-dataflow-java-proto-library-all.version>
     <guava.version>20.0</guava.version>
-    <grpc.version>1.2.0</grpc.version>
+    <grpc.version>1.79.0</grpc.version>
     <grpc-google-common-protos.version>0.1.9</grpc-google-common-protos.version>
     <!--
       This is the version of Hadoop used to compile the module that depend on Hadoop.
@@ -1785,7 +1785,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1799,7 +1799,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1856,7 +1856,7 @@
                   </relocation>
                 </relocations>
                 <transformers>
-                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
